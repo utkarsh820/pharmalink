@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pharmalink"
+version = "0.1.0"
+description = "Project is about Supervised regression (multi-step time series forecasting) or StockOut Prediction"
+authors = ["Utkarsh P."]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^3.0.1"
+numpy = "^2.4.3"
+scikit-learn = "^1.8.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
+optuna = "^4.8.0"
+shap = "^0.51.0"
+omegaconf = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
