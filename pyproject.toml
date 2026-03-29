@@ -16,6 +16,8 @@ seaborn = "^0.13.2"
 optuna = "^4.8.0"
 shap = "^0.51.0"
 omegaconf = "^2.3.0"
+pyarrow = "^23.0.1"
+fastparquet = "^2026.3.0"
 
 
 [build-system]
