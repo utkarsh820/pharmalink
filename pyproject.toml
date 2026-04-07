@@ -7,9 +7,9 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.14"
 pandas = "^3.0.1"
-numpy = "^2.4.3"
+numpy = "^2.3"
 scikit-learn = "^1.8.0"
 matplotlib = "^3.10.8"
 seaborn = "^0.13.2"
